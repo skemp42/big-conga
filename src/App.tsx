@@ -3,19 +3,36 @@ import "./App.css";
 import { useState } from "react";
 import { useEffect } from "react";
 
-const formatter = new Intl.NumberFormat('en-GB', {
-  style: 'currency',
-  currency: 'GBP',
+const formatter = new Intl.NumberFormat("en-GB", {
+  style: "currency",
+  currency: "GBP",
 });
 
-const headers = ['A conga a day keeps the doctor away', 'You call that a conga? This is a conga', 'Conga on, conga off', "You can't handle the conga", 'Carry on my wayward conga', 'Stop, drop and conga', "I've got a lovely bunch of conganuts", "Conga like it's 1999", 'Is that a conga in your pocket or are you just happy to see me?']
+const headers = [
+  "A conga a day keeps the doctor away",
+  "You call that a conga? This is a conga",
+  "Conga on, conga off",
+  "You can't handle the conga",
+  "Carry on my wayward conga",
+  "Stop, drop and conga",
+  "I've got a lovely bunch of conganuts",
+  "Conga like it's 1999",
+  "Is that a conga in your pocket or are you just happy to see me?",
+  "May the Conga be with you",
+  "There's no place like conga",
+  "Conga, my dear Watson",
+  "My mama always said life was like a box of chocolates. You never know what Conga you're gonna get",
+  "You're gonna need a bigger conga",
+  "Conga, we have a problem",
+];
+
 const header = headers[Math.floor(Math.random() * headers.length)];
 
 const App = (): ReactElement => {
   const [salary, setSalary] = useState(new Date().getTime() / 100000);
   useEffect(() => {
     const timeout = setTimeout(() => {
-      setSalary(salary + (new Date().getTime() / 10000000000));
+      setSalary(salary + new Date().getTime() / 10000000000);
     }, 100);
     return () => {
       clearTimeout(timeout);
@@ -33,6 +50,6 @@ const App = (): ReactElement => {
       </header>
     </div>
   );
-}
+};
 
 export default App;
