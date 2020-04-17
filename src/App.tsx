@@ -10,7 +10,6 @@ function App() {
     currency: 'GBP',
   });
 
- 
   const [salary, setSalary] = useState(new Date().getTime() / 100000);
   useEffect(() => {
     const timeout = setTimeout(() => {
@@ -24,10 +23,10 @@ function App() {
   return (
     <div className='App'>
       <header className='App-header'>
-        <h1>I fucking love big conga</h1>
+        <h1>A conga a day keeps the doctor away</h1>
         <h3>Money rinsed on current day rate:</h3>
         <h3>{formatter.format(salary)}</h3>
-        <h3>Number of times hes broken prod:</h3>
+        <h3>Number of times he's broken prod:</h3>
         <h3>1</h3>
       </header>
     </div>
