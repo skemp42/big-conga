@@ -62,6 +62,9 @@ const App = (): ReactElement => {
         <h3>Number of times he's broken prod:</h3>
         <h3>1</h3>
       </header>
+      <div className="art">
+        <img src="../img/pumba.png" alt="pumba" />
+      </div>
     </div>
   );
 };
