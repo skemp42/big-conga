@@ -39,6 +39,11 @@ h2 {
 
 .art img {
   max-width: 80%;
+  margin-bottom: 20px;
+}
+
+.art h3 {
+  color: white;
 }
 
 .App-link {
