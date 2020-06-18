@@ -87,8 +87,8 @@ const App = (): ReactElement => {
         <img src="../img/pine-cone.png" alt="pine cone" />
         <h3>Gandalf</h3>
         <img src="../img/gandalf.png" alt="gandalf" />
-        <h3>Cheerleader</h3>
-        <img src="../img/cheerleader.png" alt="cheerleader" />
+        <h3>Poster</h3>
+        <img src="../img/poster.png" alt="poster" />
         <h3>Cement</h3>
         <img src="../img/cement.png" alt="cement" />
       </div>
