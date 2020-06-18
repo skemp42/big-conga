@@ -71,6 +71,26 @@ const App = (): ReactElement => {
         <img src="../img/backpack.png" alt="backpack" />
         <h3>Desk</h3>
         <img src="../img/desk.png" alt="desk" />
+        <h3>Hovercraft</h3>
+        <img src="../img/hovercraft.png" alt="hovercraft" />
+        <h3>Unibrow</h3>
+        <img src="../img/unibrow.png" alt="unibrow" />
+        <h3>Crow</h3>
+        <img src="../img/crow.png" alt="crow" />
+        <h3>Hedgehog</h3>
+        <img src="../img/hedgehog.png" alt="hedgehog" />
+        <h3>Nasa</h3>
+        <img src="../img/nasa.png" alt="Nasa" />
+        <h3>Cheerleader</h3>
+        <img src="../img/cheerleader.png" alt="cheerleader" />
+        <h3>Pine cone</h3>
+        <img src="../img/pine-cone.png" alt="pine cone" />
+        <h3>Gandalf</h3>
+        <img src="../img/gandalf.png" alt="gandalf" />
+        <h3>Cheerleader</h3>
+        <img src="../img/cheerleader.png" alt="cheerleader" />
+        <h3>Cement</h3>
+        <img src="../img/cement.png" alt="cement" />
       </div>
     </div>
   );
